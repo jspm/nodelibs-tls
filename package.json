@@ -1,3 +1,6 @@
 {
-  "registry": "npm"
+  "registry": "npm",
+  "dependencies": {
+    "tls-browserify": "^0.1.3"
+  }
 }

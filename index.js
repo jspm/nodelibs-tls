@@ -1,4 +1,1 @@
-if (System._nodeRequire)
-  module.exports = System._nodeRequire('tls');
-else
-  throw "Node tls module not supported in browsers.";
+module.exports = System._nodeRequire ? System._nodeRequire('tls') : require('tls-browserify');
