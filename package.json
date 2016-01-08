@@ -1,6 +1,9 @@
 {
-  "registry": "npm",
-  "dependencies": {
-    "tls-browserify": "^0.1.3"
+  "main": "./tls.js",
+  "registry": "github",
+  "map": {
+    "./tls.js": {
+      "node": "@node/tls"
+    }
   }
 }
