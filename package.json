@@ -1,7 +1,7 @@
 {
   "main": "./tls.js",
   "name": "jspm-nodelibs-tls",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "map": {
     "./tls.js": {
       "node": "@node/tls"
